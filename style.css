@@ -1,16 +1,26 @@
 * {
     padding: 0;
-    margin: 0 5px;
+    margin: 0;
     box-sizing: border-box;
 }
 
-.header {
+html {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0 5px;
+}
+
+/*dit is het begin van de header*/
+header {
     background-color: pink;
     font-weight: bold;
     height: 70px;
 }
 
-.header a {
+header a {
     text-decoration: none;
     color: black;
     padding: 0 20px;
@@ -18,17 +28,15 @@
     top: 35px;
     font-size: 20px;
 }
+/*dit is het einde van de header*/
 
-div.body {
-
-}
-
-h1 {
+/*dit is het begin van de home-page*/
+h1.home {
     margin: 15px 10px;
     font-weight: bold;
 }
 
-article {
+article.articlehome {
     margin: 0;
     float: left;
     position: relative;
@@ -36,7 +44,7 @@ article {
     width: 33.3%;
 }
 
-article:not(:last-child) {
+article.articlehome:not(:last-child) {
     padding-right: 20px;
 }
 
@@ -44,21 +52,23 @@ div.body img {
     margin: 0;
     width: 100%;
 }
+/*dit is het einde van de home-page*/
 
-footer {
-    height: 200px;
-    background-color: darkgray;
-    float: left;
-    width: 100%;
-}
+/*dit is het begin van de contact pagina*/
 .persoonsgegevens {
+    width: 55%;
+    text-align: right;
     float: right;
     position: relative;
 }
-.formulier {
-    width: 125px;
-    padding: 2px;
 
+.maps {
+    width: 45%;
+}
+
+.formulier {
+    width: 30%;
+    padding: 2px;
 }
 
 label {
@@ -69,8 +79,39 @@ input {
     float: right;
 }
 
+textarea {
+    float: right;
+}
+
 iframe {
     float: left;
 }
+/*dit is hte einde van de contact pagina*/
 
+/*dit is het begin van de footer*/
+footer {
+    height: 200px;
+    background-color: darkgray;
+    float: left;
+    width: 100%;
+}
 
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+footer ul {
+    width: 50%;
+    margin: 0;
+    position: relative;
+    float: left;
+}
+
+footer img {
+    float: right;
+    position: relative;
+    padding-right: 20px;
+}
+/*dit is het einde van de footer*/
