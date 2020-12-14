@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-div.header {
+header {
     background-color: pink;
     font-weight: bold;
     height: 70px;
 }
 
-div.header a {
+header a {
     text-decoration: none;
     color: black;
     padding: 0 20px;
@@ -48,4 +48,6 @@ div.body img {
 footer {
     height: 200px;
     background-color: darkgray;
+    float: left;
+    width: 100%;
 }
