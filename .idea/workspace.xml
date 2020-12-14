@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68454f86-b49d-4124-8c04-8a028485d9d9" name="Default Changelist" comment="het plaatje">
+    <list default="true" id="68454f86-b49d-4124-8c04-8a028485d9d9" name="Default Changelist" comment="Set header, body, maps and formulier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homepagina/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homepagina/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -99,6 +99,7 @@
     <MESSAGE value="de header voor de home-page is af" />
     <MESSAGE value="de eerste kolom staat er en de footer staat er ook" />
     <MESSAGE value="het plaatje" />
-    <option name="LAST_COMMIT_MESSAGE" value="het plaatje" />
+    <MESSAGE value="Set things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set things" />
   </component>
 </project>

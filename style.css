@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-header {
+.header {
     background-color: pink;
     font-weight: bold;
     height: 70px;
 }
 
-header a {
+.header a {
     text-decoration: none;
     color: black;
     padding: 0 20px;
@@ -51,3 +51,26 @@ footer {
     float: left;
     width: 100%;
 }
+.persoonsgegevens {
+    float: right;
+    position: relative;
+}
+.formulier {
+    width: 125px;
+    padding: 2px;
+
+}
+
+label {
+    float: left;
+}
+
+input {
+    float: right;
+}
+
+iframe {
+    float: left;
+}
+
+
