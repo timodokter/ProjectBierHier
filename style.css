@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0 5px;
+    box-sizing: border-box;
 }
 
 div.header {
@@ -27,17 +28,24 @@ h1 {
     font-weight: bold;
 }
 
-p.article {
+article {
+    margin: 0;
+    float: left;
     position: relative;
     font-family: sans-serif;
-    width: 33%;
+    width: 33.3%;
+}
+
+article:not(:last-child) {
+    padding-right: 20px;
 }
 
 div.body img {
+    margin: 0;
     width: 100%;
 }
 
-div.footer {
+footer {
     height: 200px;
     background-color: darkgray;
 }
