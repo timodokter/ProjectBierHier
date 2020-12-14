@@ -14,13 +14,30 @@ div.header a {
     color: black;
     padding: 0 20px;
     position: relative;
-    top: 50px;
+    top: 35px;
+    font-size: 20px;
 }
 
-p {
+div.body {
+
+}
+
+h1 {
+    margin: 15px 10px;
+    font-weight: bold;
+}
+
+p.article {
+    position: relative;
     font-family: sans-serif;
+    width: 33%;
+}
+
+div.body img {
+    width: 100%;
 }
 
 div.footer {
+    height: 200px;
     background-color: darkgray;
 }
