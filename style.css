@@ -1,0 +1,23 @@
+* {
+    margin: 0 5px;
+}
+
+div.header {
+    background-color: pink;
+    font-weight: bold;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+div.footer {
+    background-color: darkgray;
+}
