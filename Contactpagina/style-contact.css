@@ -1,0 +1,39 @@
+/*dit is het begin van de contact pagina*/
+.persoonsgegevens {
+    width: 50%;
+    text-align: right;
+    float: right;
+    position: relative;
+    margin-right: 15px;
+
+}
+
+.maps {
+    width: 45%;
+}
+
+.formulier {
+    width: 30%;
+    padding: 2px;
+}
+
+label {
+    float: left;
+}
+
+input {
+    float: right;
+}
+
+textarea {
+    float: right;
+}
+
+iframe {
+    float: left;
+}
+
+.formulier, .maps, .body {
+    margin-left: 15px;
+}
+/*dit is hte einde van de contact pagina*/
