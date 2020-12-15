@@ -1,0 +1,29 @@
+/*dit is het begin van de home-page*/
+body.body-home {
+    margin: 0 15px;
+}
+
+h1.home {
+    margin: 15px 0 15px 10px;
+    font-weight: bold;
+    width: 60%;
+    position: relative;
+}
+
+article.articlehome {
+    margin: 0;
+    float: left;
+    position: relative;
+    font-family: sans-serif;
+    width: 33.3%;
+}
+
+article.articlehome:not(:last-child) {
+    padding-right: 20px;
+}
+
+div.body img {
+    margin: 0;
+    width: 100%;
+}
+/*dit is het einde van de home-page*/
