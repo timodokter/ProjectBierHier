@@ -1,0 +1,8 @@
+.basis {
+    margin-left: 15px;
+}
+.recept1 , .recept2, .recept3{
+    width: 50%;
+    display: block;
+    margin-left: 15px;
+}
