@@ -7,12 +7,28 @@ h1.title {
     float: right;
 }
 
-img.podium {
-    width: 900px;
+.podium {
+    width: 45%;
     position: relative;
+}
+
+.kalender {
+    width: 99%;
 }
 
 div.concertkalenderartikel {
     float: right;
     position: relative;
+}
+
+.meer {
+    display: flex;
+}
+
+.meer h1 {
+    float: left;
+    align-self: flex-end;
+}
+.meer img {
+    padding-left: 30px;
 }
