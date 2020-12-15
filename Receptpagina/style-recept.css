@@ -1,14 +1,32 @@
 .basis {
     position: relative;
     margin-left: 15px;
-    margin-right: 0px;
-    width: 45%;
+    float: left;
+    font-family: sans-serif;
 }
+
+.boerenkool, .nasi, .lasange {
+    margin-left: 15px;
+    width: 100%;
+}
+
 .recept1, .recept2, .recept3{
-    width: 45%;
     display: block;
     margin-left: 15px;
     font-family: sans-serif;
+    position: relative;
+}
+
+p {
+    position: relative;
+    width: 45%;
+    float: left;
+}
+
+img {
+    position: relative;
+    clear: left;
+    padding-left: 100px;
 }
 
 .pictures {
@@ -17,4 +35,8 @@
     float: right;
     width: 50%;
     margin-right: 15px;
+}
+
+.pictures img {
+    width: 100%;
 }
