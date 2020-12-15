@@ -20,6 +20,10 @@ header {
     height: 70px;
 }
 
+header.contactheader {
+    background-image: url("IMG/contact.jpg");
+}
+
 header a {
     text-decoration: none;
     color: black;
