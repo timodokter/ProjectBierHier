@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <list default="true" id="68454f86-b49d-4124-8c04-8a028485d9d9" name="Default Changelist" comment="Set header, body, maps and formulier">
 =======
     <list default="true" id="68454f86-b49d-4124-8c04-8a028485d9d9" name="Default Changelist" comment="de body van de home-page is af alleen de footer wil niet op zijn plek komen 2">
       <change afterPath="$PROJECT_DIR$/IMG/t-mobile_overvalling2.jpg" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+    <list default="true" id="68454f86-b49d-4124-8c04-8a028485d9d9" name="Default Changelist" comment="het plaatje">
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/Contactpagina/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contactpagina/contact.html" afterDir="false" />
+=======
+=======
+<<<<<<< Updated upstream
+    <list default="true" id="68454f86-b49d-4124-8c04-8a028485d9d9" name="Default Changelist" comment="de header voor de home-page is af">
+>>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/Homepagina/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homepagina/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+=======
+    <list default="true" id="a2ab73ac-afe2-45cd-a886-0148d4bd5b79" name="Default Changelist" comment="Mappen per paginacatergorie gesorteerd">
+      <change afterPath="$PROJECT_DIR$/.idea/ProjectBierHier.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +40,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectId" id="1leF4OcwgNgIuoK41E5apMRJyar" />
+=======
+  <component name="ProjectId" id="1ldt7f3ncqQ2JrQl9bAWgaT0zqq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< Updated upstream
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,8 +88,55 @@
       <updated>1607949461417</updated>
       <workItem from="1607949467943" duration="9000" />
       <workItem from="1607949503159" duration="36000" />
+<<<<<<< Updated upstream
       <workItem from="1607949541709" duration="2022000" />
+<<<<<<< Updated upstream
       <workItem from="1607951602838" duration="3234000" />
+=======
+      <workItem from="1607951602838" duration="956000" />
+=======
+      <workItem from="1607949541709" duration="1386000" />
+=======
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Receptpagina" />
+      <recent name="$PROJECT_DIR$/Sportpagina" />
+      <recent name="$PROJECT_DIR$/Concertpagina" />
+      <recent name="$PROJECT_DIR$/Over ons pagina" />
+      <recent name="$PROJECT_DIR$/De contactpagina" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2ab73ac-afe2-45cd-a886-0148d4bd5b79" name="Default Changelist" comment="" />
+      <created>1607938631885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607938631885</updated>
+      <workItem from="1607938636479" duration="865000" />
+      <workItem from="1607943946651" duration="1810000" />
+      <workItem from="1607949415485" duration="1089000" />
+    </task>
+    <task id="LOCAL-00001" summary="Mappen per paginacatergorie gesorteerd">
+      <created>1607940261867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607940261868</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Mappen per paginacatergorie gesorteerd">
+      <created>1607940303617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607940303617</updated>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00003" summary="de eerste kolom staat er en de footer staat er ook">
       <created>1607951052944</created>
@@ -129,10 +201,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< Updated upstream
     <MESSAGE value="de header op de homepage is bijna af en er is wat gaan het css bestand" />
     <MESSAGE value="de header voor de home-page is af" />
+<<<<<<< Updated upstream
     <MESSAGE value="de eerste kolom staat er en de footer staat er ook" />
     <MESSAGE value="het plaatje" />
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <MESSAGE value="Set things" />
     <option name="LAST_COMMIT_MESSAGE" value="Set things" />
@@ -140,6 +215,15 @@
     <MESSAGE value="de body van de home-page is af alleen de footer wil niet op zijn plek komen" />
     <MESSAGE value="de body van de home-page is af alleen de footer wil niet op zijn plek komen 2" />
     <option name="LAST_COMMIT_MESSAGE" value="de body van de home-page is af alleen de footer wil niet op zijn plek komen 2" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="het plaatje" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="de header voor de home-page is af" />
+=======
+    <MESSAGE value="Mappen per paginacatergorie gesorteerd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mappen per paginacatergorie gesorteerd" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
   </component>
 </project>
