@@ -110,6 +110,7 @@ footer a {
 }
 
 footer ul {
+    list-style-type: none;
     width: 50%;
     margin: 0;
     position: relative;
@@ -120,5 +121,9 @@ footer img {
     float: right;
     position: relative;
     padding-right: 20px;
+}
+
+div.footer {
+    margin-left: 15px;
 }
 /*dit is het einde van de footer*/
