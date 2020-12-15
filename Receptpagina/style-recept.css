@@ -2,7 +2,13 @@
     margin-left: 15px;
 }
 .recept1 , .recept2, .recept3{
-    width: 50%;
+    width: 45%;
     display: block;
     margin-left: 15px;
+}
+
+.pictures {
+    float: right;
+    width: 50%;
+    /*margin-right: 15px;*/
 }
