@@ -23,7 +23,7 @@ p {
     float: left;
 }
 
-img {
+.basis img {
     position: relative;
     clear: left;
     padding-left: 100px;
