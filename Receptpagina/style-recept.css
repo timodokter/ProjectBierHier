@@ -1,0 +1,19 @@
+.basis {
+    position: relative;
+    margin-left: 15px;
+    margin-right: 0px;
+    width: 45%;
+}
+.recept1, .recept2, .recept3{
+    width: 45%;
+    display: block;
+    margin-left: 15px;
+}
+
+.pictures {
+    position: relative;
+    display: block;
+    float: right;
+    width: 50%;
+    margin-right: 15px;
+}

@@ -1,0 +1,18 @@
+div.wrapper {
+    margin: 0 50px;
+    font-family: sans-serif;
+}
+
+h1.title {
+    float: right;
+}
+
+img.podium {
+    width: 900px;
+    position: relative;
+}
+
+div.concertkalenderartikel {
+    float: right;
+    position: relative;
+}
