@@ -8,8 +8,7 @@
       <change afterPath="$PROJECT_DIR$/IMG/t-mobile_overvalling2.jpg" afterDir="false" />
 >>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homepagina/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homepagina/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contactpagina/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contactpagina/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +80,7 @@
       <option name="project" value="LOCAL" />
       <updated>1607951241950</updated>
     </task>
+<<<<<<< Updated upstream
     <task id="LOCAL-00005" summary="de body van de home-page is af alleen de footer wil niet op zijn plek komen">
       <created>1607952588544</created>
       <option name="number" value="00005" />
@@ -94,6 +94,21 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1607952877447</updated>
+=======
+    <task id="LOCAL-00005" summary="Set things">
+      <created>1607955606888</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607955606888</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Set things">
+      <created>1607955628313</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607955628313</updated>
+>>>>>>> Stashed changes
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
