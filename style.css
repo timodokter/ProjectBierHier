@@ -63,10 +63,12 @@ div.body img {
 
 /*dit is het begin van de contact pagina*/
 .persoonsgegevens {
-    width: 55%;
+    width: 50%;
     text-align: right;
     float: right;
     position: relative;
+    margin-right: 15px;
+
 }
 
 .maps {
