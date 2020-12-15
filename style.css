@@ -97,6 +97,10 @@ textarea {
 iframe {
     float: left;
 }
+
+.formulier, .maps, .body {
+    margin-left: 15px;
+}
 /*dit is hte einde van de contact pagina*/
 
 /*dit is het begin van de footer*/
