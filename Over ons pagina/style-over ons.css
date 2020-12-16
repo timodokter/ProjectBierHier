@@ -3,7 +3,6 @@
 }
 
 article.article-Ons{
-    width: 33.3%;
     float: left;
     position: relative;
 }
@@ -14,4 +13,10 @@ article.article-Ons:not(last-child){
 
 article.article-Ons img{
     width: 100%;
+}
+
+@media all and (min-width: 550px){
+    article.article-Ons{
+    width: 33.3%;
+    }
 }
