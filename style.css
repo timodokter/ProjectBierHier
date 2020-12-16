@@ -13,7 +13,7 @@ html {
 header {
     background-color: pink;
     font-weight: bold;
-    height: 70px;
+    display: flex;
 }
 
 header img {
@@ -28,8 +28,18 @@ header a {
     color: black;
     padding: 0 20px;
     position: relative;
-    top: 35px;
     font-size: 20px;
+    align-self: flex-end;
+}
+
+header ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+header li {
+    border-top: 1px solid white;
+    width: 100%;
 }
 /*dit is het einde van de header*/
 
