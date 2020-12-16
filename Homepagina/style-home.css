@@ -15,7 +15,6 @@ article.articlehome {
     float: left;
     position: relative;
     font-family: sans-serif;
-    width: 33.3%;
 }
 
 article.articlehome:not(:last-child) {
@@ -25,5 +24,11 @@ article.articlehome:not(:last-child) {
 div.body img {
     margin: 0;
     width: 100%;
+}
+
+@media all and (min-width: 550px) {
+    article.articlehome {
+        width: 33.3%;
+    }
 }
 /*dit is het einde van de home-page*/

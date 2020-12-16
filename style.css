@@ -11,7 +11,7 @@ html {
 
 /*dit is het begin van de header*/
 header {
-    background-color: pink;
+    background-color: hotpink;
     font-weight: bold;
     display: flex;
 }
@@ -26,7 +26,7 @@ header img {
 header a {
     text-decoration: none;
     color: black;
-    padding: 0 20px;
+    padding: 0 6px;
     position: relative;
     font-size: 20px;
     align-self: flex-end;
@@ -40,6 +40,23 @@ header ul {
 header li {
     border-top: 1px solid white;
     width: 100%;
+}
+
+@media all and (min-width: 550px) {
+    header li {
+        display: inline;
+        border: none;
+    }
+}
+
+@media all and (min-width: 920px) {
+    header ul {
+        margin-top: 20px;
+    }
+
+    header li {
+        padding-right: 20px;
+    }
 }
 /*dit is het einde van de header*/
 
