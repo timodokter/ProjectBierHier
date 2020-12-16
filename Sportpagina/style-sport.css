@@ -5,6 +5,7 @@ div#grid{
     grid-gap: 45px;
     margin-left: 50px;
     position: relative;
+    width: 50%;
 }
 
 div#grid img{
@@ -22,7 +23,7 @@ div.vereniging{
 }
 
 div.foto{
-    width: 60%;
+    width: 50%;
 }
 
 article:not(last-child){
