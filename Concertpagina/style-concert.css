@@ -23,20 +23,50 @@ div.wrapper {
 @media all and (min-width: 550px) {
     .podium {
         width: 45%;
+        position: relative;
+        float: left;
     }
     div.concertkalenderartikel {
         float: right;
         position: relative;
+        width: 41%;
     }
+
+    div.titel {
+        float: right;
+        width: 40%;
+    }
+
     h1.title {
         float: right;
     }
-    .meer {
-        display: flex;
-    }
 
+    p {
+        float: right;
+    }
+    .kalender {
+        float: right;
+    }
+    .meer {
+        margin-top: 50px;
+        float: left;
+        position: relative;
+        display: flex;
+        width: 50%;
+    }
+    .meer ul {
+        display: flex;
+        align-items: flex-end;
+        height: 100px;
+    }
+    .meer li {
+        padding-left: 10px;
+    }
     .meer h1 {
         float: left;
         align-self: flex-end;
+    }
+    .meer img {
+
     }
 }
