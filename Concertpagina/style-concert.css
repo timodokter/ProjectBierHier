@@ -3,12 +3,8 @@ div.wrapper {
     font-family: sans-serif;
 }
 
-h1.title {
-    float: right;
-}
-
 .podium {
-    width: 45%;
+    width: 100%;
     position: relative;
 }
 
@@ -16,19 +12,31 @@ h1.title {
     width: 99%;
 }
 
-div.concertkalenderartikel {
-    float: right;
-    position: relative;
-}
-
-.meer {
-    display: flex;
-}
-
-.meer h1 {
-    float: left;
-    align-self: flex-end;
-}
 .meer img {
-    padding-left: 30px;
+    width: 100%;
+}
+
+.meer ul {
+    list-style-type: none;
+}
+
+@media all and (min-width: 550px) {
+    .podium {
+        width: 45%;
+    }
+    div.concertkalenderartikel {
+        float: right;
+        position: relative;
+    }
+    h1.title {
+        float: right;
+    }
+    .meer {
+        display: flex;
+    }
+
+    .meer h1 {
+        float: left;
+        align-self: flex-end;
+    }
 }
