@@ -5,6 +5,9 @@
     font-family: sans-serif;
 }
 
+a {
+    color: black;
+}
 .boerenkool, .nasi, .lasange {
     margin-left: 15px;
     width: 100%;
