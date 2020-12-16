@@ -17,10 +17,12 @@ header {
 }
 
 header img {
-    float: right;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 68px;
+    width: 100px;
+    align-self: center;
+    order: 2;
+    margin-left: auto;
+    margin-right: 10px;
 }
 
 header a {
@@ -39,13 +41,19 @@ header ul {
 
 header li {
     border-top: 1px solid white;
-    width: 100%;
 }
 
 @media all and (min-width: 550px) {
     header li {
         display: inline;
         border: none;
+        align-self: flex-end;
+    }
+    header {
+        height: 100px;
+    }
+    header ul {
+        display: flex;
     }
 }
 
@@ -53,7 +61,6 @@ header li {
     header ul {
         margin-top: 20px;
     }
-
     header li {
         padding-right: 20px;
     }
