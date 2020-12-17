@@ -1,7 +1,34 @@
 #wrapper {
     margin: 0 15px 0 15px;
+    font-family: sans-serif;
 }
 
-p {
+.titel {
     width: 50%;
+    float: left;
+}
+
+.hoofdimage {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.uitslagen {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+article.article {
+    width: 25%;
+    position: relative;
+    padding-right: 10px;
+    float: left;
+}
+
+img.mannetje {
+    width: 25%;
+    position: relative;
+    float: left;
 }
