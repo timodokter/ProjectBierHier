@@ -1,15 +1,22 @@
 #wrapper {
-    margin: 0 15px 0 15px;
+    margin: 15px 15px 0 15px;
     font-family: sans-serif;
 }
 
 .titel {
-    width: 50%;
+    width: 100%;
     float: left;
+    text-align: center;
+}
+
+.titel2 {
+    width: 100%;
+    float: left;
+    text-align: center;
 }
 
 .hoofdimage {
-    width: 50%;
+    width: 100%;
     float: left;
     position: relative;
 }
@@ -17,18 +24,107 @@
 .uitslagen {
     position: relative;
     float: left;
-    width: 50%;
+    width: 100%;
 }
 
 article.article {
-    width: 25%;
+    width: 100%;
     position: relative;
     padding-right: 10px;
     float: left;
+    margin: 10px 0 0 0;
 }
 
 img.mannetje {
-    width: 25%;
+    width: 100%;
     position: relative;
     float: left;
+}
+
+@media all and (min-width: 800px) {
+    .titel {
+        width: 65%;
+        float: left;
+    }
+
+    .titel2 {
+        width: 35%;
+        float: left;
+        text-align: center;
+    }
+
+    .hoofdimage {
+        width: 65%;
+        float: left;
+    }
+
+    .uitslagen {
+        position: relative;
+        float: left;
+        width: 35%;
+    }
+
+    article.article {
+        width: 50%;
+        position: relative;
+        padding-right: 10px;
+        float: left;
+    }
+
+    img.mannetje {
+        width: 50%;
+        position: relative;
+        float: left;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    div#grid {
+        display: grid;
+        grid-template-areas:
+                            'titel titel2'
+                            'hoofdimage uitslagen';
+        grid-auto-columns: 50%;
+        grid-gap: 10px;
+    }
+
+    .titel {
+        width: 100%;
+        float: left;
+        grid-area: titel;
+    }
+
+    .titel2 {
+        width: 100%;
+        float: left;
+        text-align: center;
+        grid-area: titel2;
+    }
+
+    .hoofdimage {
+        width: 100%;
+        float: left;
+        position: relative;
+        grid-area: hoofdimage;
+    }
+
+    .uitslagen {
+        position: relative;
+        float: left;
+        width: 100%;
+        grid-area: uitslagen;
+    }
+
+    article.article {
+        width: 25%;
+        position: relative;
+        padding-right: 10px;
+        float: left;
+    }
+
+    img.mannetje {
+        width: 25%;
+        position: relative;
+        float: left;
+    }
 }
