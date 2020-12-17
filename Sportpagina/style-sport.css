@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 div#grid {
     margin-left: 20px;
     position: relative;
@@ -8,7 +9,16 @@ div#grid {
 div#grid img {
     width: 200px;
     height: 150px;
+=======
+#wrapper {
+    font-family: sans-serif;
+    margin: 0 15px 0 15px
+}
+
+#pictures img{
+>>>>>>> Stashed changes
     box-sizing: border-box;
+
 }
 
 h1 {
@@ -16,28 +26,132 @@ h1 {
     margin-bottom: 30px;
 }
 
+<<<<<<< Updated upstream
 div.vereniging {
-    margin: 10px 50px;
+=======
+#titel{
+    width: 100%;
+    display: block;
+    margin-top: 15px;
 }
 
+#vereniging{
+>>>>>>> Stashed changes
+    margin: 10px 50px;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+p.tekst{
+    float: right;
+    position: relative;
+    width: 130%;
+}
+
+<<<<<<< Updated upstream
 div.foto {
     width: 50%;
 }
 
 article:not(last-child) {
     float: left;
-    position: relative;
+=======
+#tekstArea{
+    width: 45%;
 }
 
+#pictures{
+    width: 45%;
+}
+
+.picture{
+    max-width: 100%;
+>>>>>>> Stashed changes
+    position: relative;
+    vertical-align: middle;
+    height: 200px;
+    width: 250px;
+    object-fit:fill;
+}
+
+<<<<<<< Updated upstream
 p.tekst {
     float: right;
+=======
+.pictureSize {
+>>>>>>> Stashed changes
     position: relative;
-    width: 50%;
 }
 
+<<<<<<< Updated upstream
 @media all and (min-width: 550px) {
     img {
         width:50px;
         height: 50px;
+=======
+@media all and (min-width: 550px){
+    #pictures{
+        width:100%;
+        float: left;
+    }
+
+    #tekstArea{
+        width: 100%;
+        float: right;
+    }
+
+    .pictureSize{
+        width: 45%;
+        height: auto;
+        min-height: 100%;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+    }
+}
+
+@media all and (min-width: 800px){
+
+    #pictures{
+        width: 65%;
+        float: left;
+    }
+
+    #tekstArea{
+        width: 30%;
+        float: right;
+    }
+
+    .pictureSize{
+        width: 45%;
+        height: auto;
+        min-height: 100%;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    #pictures{
+        width: 65%;
+        float: left;
+    }
+
+    #tekstArea{
+        width: 30%;
+        float: right;
+    }
+
+    .pictureSize{
+        width: 30%;
+        height: auto;
+        min-height: 100%;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+>>>>>>> Stashed changes
     }
 }
