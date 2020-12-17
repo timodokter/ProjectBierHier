@@ -139,6 +139,7 @@ article:not(last-child) {
         grid-auto-columns: 33.3333%;
         text-align: center;
         grid-gap: 30px;
+        width: 50%;
     }
     #verenigingtitel { grid-area: verenegingtitel; }
     #handbal-vereneging { grid-area: vereneging3; }
