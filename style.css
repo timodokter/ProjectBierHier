@@ -14,17 +14,25 @@ header {
     width: 100%;
     background-color: hotpink;
     font-weight: bold;
-    display: flex;
+    display: grid;
+    grid-template-areas:
+            'h1'
+            'ul';
 }
 
-header img {
-    height: 68px;
-    width: 100px;
-    align-self: center;
-    order: 2;
-    margin-left: auto;
-    margin-right: 10px;
+header h1 {
+    width: 100%;
+    grid-area: h1;
 }
+
+/*header img {*/
+/*    height: 68px;*/
+/*    width: 100px;*/
+/*    align-self: center;*/
+/*    order: 2;*/
+/*    margin-left: auto;*/
+/*    margin-right: 10px;*/
+/*}*/
 
 header a {
     text-decoration: none;
@@ -32,12 +40,13 @@ header a {
     padding: 0 6px;
     position: relative;
     font-size: 20px;
-    align-self: flex-end;
+    /*align-self: flex-end;*/
 }
 
 header ul {
     list-style-type: none;
     width: 100%;
+    grid-area: ul;
 }
 
 header li {
@@ -52,16 +61,22 @@ header li {
     }
     header {
         height: 100px;
+        display: flex;
     }
     header ul {
+        height: 20%;
+        align-self: flex-end;
         display: flex;
+        position: absolute;
+    }
+    h1#headertitel {
+        height: 80%;
+        width: 100%;
+        position: absolute;
     }
 }
 
 @media all and (min-width: 920px) {
-    header ul {
-        margin-top: 20px;
-    }
     header li {
         padding-right: 20px;
     }
