@@ -39,7 +39,7 @@ h1 {
 p.tekst{
     float: right;
     position: relative;
-    width: 130%;
+    width: 100%;
 }
 
 div.foto {
@@ -123,6 +123,10 @@ p.tekst {
         position: relative;
         display: inline-block;
     }
+
+    p.tekst {
+        width: 130%;
+    }
 }
 
 @media all and (min-width: 1200px) {
@@ -144,5 +148,9 @@ p.tekst {
         overflow: hidden;
         position: relative;
         display: inline-block;
+    }
+
+    p.tekst {
+        width: 130%;
     }
 }
