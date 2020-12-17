@@ -1,24 +1,21 @@
-<<<<<<< Updated upstream
 div#grid {
     margin-left: 20px;
     position: relative;
     box-sizing: border-box;
-
 }
 
 div#grid img {
     width: 200px;
     height: 150px;
-=======
+}
+
 #wrapper {
     font-family: sans-serif;
     margin: 0 15px 0 15px
 }
 
 #pictures img{
->>>>>>> Stashed changes
     box-sizing: border-box;
-
 }
 
 h1 {
@@ -26,9 +23,6 @@ h1 {
     margin-bottom: 30px;
 }
 
-<<<<<<< Updated upstream
-div.vereniging {
-=======
 #titel{
     width: 100%;
     display: block;
@@ -36,7 +30,6 @@ div.vereniging {
 }
 
 #vereniging{
->>>>>>> Stashed changes
     margin: 10px 50px;
     display: block;
     width: 100%;
@@ -49,14 +42,14 @@ p.tekst{
     width: 130%;
 }
 
-<<<<<<< Updated upstream
 div.foto {
     width: 50%;
 }
 
 article:not(last-child) {
     float: left;
-=======
+}
+
 #tekstArea{
     width: 45%;
 }
@@ -75,21 +68,21 @@ article:not(last-child) {
     object-fit:fill;
 }
 
-<<<<<<< Updated upstream
 p.tekst {
     float: right;
-=======
+}
+
 .pictureSize {
->>>>>>> Stashed changes
     position: relative;
 }
 
-<<<<<<< Updated upstream
 @media all and (min-width: 550px) {
     img {
-        width:50px;
+        width: 50px;
         height: 50px;
-=======
+    }
+}
+
 @media all and (min-width: 550px){
     #pictures{
         width:100%;
@@ -152,6 +145,5 @@ p.tekst {
         overflow: hidden;
         position: relative;
         display: inline-block;
->>>>>>> Stashed changes
     }
 }
