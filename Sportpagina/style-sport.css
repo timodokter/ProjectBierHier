@@ -18,7 +18,7 @@ div#grid img {
     box-sizing: border-box;
 }
 
-h1 {
+h1.sport {
     margin-left: 50px;
     margin-bottom: 30px;
 }
@@ -30,9 +30,9 @@ h1 {
 }
 
 #vereniging{
-    margin: 10px 50px;
+    margin: 10px 20px;
     display: block;
-    width: 100%;
+    /*width: 75%;*/
     float: left;
 }
 
@@ -51,11 +51,11 @@ article:not(last-child) {
 }
 
 #tekstArea{
-    width: 45%;
+    width: 100%;
 }
 
 #pictures{
-    width: 45%;
+    width: 100%;
 }
 
 .picture{
@@ -67,19 +67,8 @@ article:not(last-child) {
     object-fit:fill;
 }
 
-p.tekst {
-    float: right;
-}
-
 .pictureSize {
     position: relative;
-}
-
-@media all and (min-width: 550px) {
-    img {
-        width: 50px;
-        height: 50px;
-    }
 }
 
 @media all and (min-width: 550px){
@@ -101,6 +90,20 @@ p.tekst {
         position: relative;
         display: inline-block;
     }
+    #vereniging {
+        display: grid;
+        grid-template-areas:
+        'verenegingtitel verenegingtitel'
+        'vereneging1 vereneging2'
+        'vereneging3 vereneging3';
+        grid-auto-columns: 50%;
+        text-align: center;
+        grid-gap: 30px;
+    }
+    #verenigingtitel { grid-area: verenegingtitel; }
+    #handbal-vereneging { grid-area: vereneging3; }
+    #jiujitsu-vereneging { grid-area: vereneging2; }
+    #mma-vereneging { grid-area: vereneging1; }
 }
 
 @media all and (min-width: 800px){
@@ -127,6 +130,20 @@ p.tekst {
     p.tekst {
         width: 130%;
     }
+
+    #vereniging {
+        display: grid;
+        grid-template-areas:
+        'verenegingtitel verenegingtitel verenegingtitel'
+        'vereneging1 vereneging2 vereneging3';
+        grid-auto-columns: 33.3333%;
+        text-align: center;
+        grid-gap: 30px;
+    }
+    #verenigingtitel { grid-area: verenegingtitel; }
+    #handbal-vereneging { grid-area: vereneging3; }
+    #jiujitsu-vereneging { grid-area: vereneging2; }
+    #mma-vereneging { grid-area: vereneging1; }
 }
 
 @media all and (min-width: 1200px) {
