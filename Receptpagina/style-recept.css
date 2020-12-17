@@ -20,7 +20,7 @@ a {
     position: relative;
 }
 
-p {
+p.p {
     position: relative;
     width: 45%;
     float: left;
