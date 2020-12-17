@@ -70,7 +70,7 @@ header li {
 
 /*dit is het begin van de footer*/
 footer {
-    height: 200px;
+    height: 250px;
     background-color: darkgray;
     float: left;
     width: 100%;
@@ -98,5 +98,10 @@ footer img {
 
 div.footer {
     margin-left: 15px;
+}
+
+.copyright {
+    color: white;
+    opacity: 50%;
 }
 /*dit is het einde van de footer*/
